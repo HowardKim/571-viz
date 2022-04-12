@@ -1,11 +1,12 @@
 import './App.css';
+import Scatter from './plots/scatter';
 
 function App() {
   return (
+    
     <div className="flex h-screen w-screen">
-      <div className="border-2 border-sky-500 w-1/2 m-2">
-      </div>
-      <div className="border-2 border-sky-500 w-1/2 m-2">   
+      <div className='m-2'> 
+        <Scatter/>
       </div>
     </div>
     
