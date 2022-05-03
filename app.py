@@ -20,7 +20,7 @@ continent_df = pd.read_excel(
 )
 
 app.layout = html.Div([
-    html.H1('Human Metrics', style={'height':'4vh'}),
+    html.H1('Life Quality Trends', style={'height':'4vh'}),
     html.Div([
         html.H2( id='choices') ,
         dcc.Dropdown(df['Country'].unique(),placeholder='Select Country', multi=True, id='Country-Select'),
